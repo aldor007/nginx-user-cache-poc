@@ -1,0 +1,9 @@
+FROM golang:1.10.0
+
+RUN mkdir -p /go
+ADD ./main.go /go/main.go
+RUN cd /go; go get github.com/gorilla/securecookie;go  get github.com/gorilla/mux; go build main.go;
+
+ENTRYPOINT ["/go/main"]
+
+EXPOSE 8080
