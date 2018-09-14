@@ -4,7 +4,7 @@ Blog post https://mkaciuba.com/blog/2018/09/caching-pages-with-a-login-form
 
 ## What in?
 
-Nginx configuration with Golang backend that prove you can cache in some cases user depend content (logged / not logged )
+Nginx configuration with Golang backend that prove you can cache in some cases user depend content (logged / not logged in )
 
 Credentials - admin: admin
 
